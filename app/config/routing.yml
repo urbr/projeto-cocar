@@ -1,0 +1,7 @@
+cocar:
+    resource: "@CocarBundle/Resources/config/routing.yml"
+    prefix:   /
+
+users:
+    type:     rest
+    resource: Cocar\CocarBundle\Controller\RestController

@@ -1,0 +1,12 @@
+web/bundles/*
+app/bootstrap*
+app/cache/*
+app/spool/*
+app/logs/*
+vendor/*
+app/config/parameters.yml
+nbproject/private/
+.project
+.buildpath
+.settings/
+*.php\~

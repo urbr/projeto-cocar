@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<info>
+	<machine circuit="10">
+		<macaddresss>00:19:B9:FB:E2:58</macaddresss>
+		<ip>192.168.25.10</ip>
+	</machine>
+	<snmp>
+		<period date="1379646089">
+			<in>75387</in>
+			<out>44499</out>
+		</period>
+		<period date="1379646189">
+			<in>88445</in>
+			<out>34457</out>
+		</period>
+		<period date="1379646289">
+			<in>12497</in>
+			<out>34496</out>
+                </period>
+                <period date="1379646389">
+			<in>75387</in>
+			<out>44499</out>
+		</period>
+                <period date="1379646489">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379646589">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379646689">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379646789">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379646889">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379646989">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647089">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647189">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647289">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647389">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647489">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+                <period date="1379647589">
+                        <in>75387</in>
+                        <out>44499</out>
+                </period>
+	</snmp>
+</info>
