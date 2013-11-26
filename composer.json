@@ -1,5 +1,5 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "urucumbrasil/projeto-cocar",
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
@@ -18,8 +18,8 @@
         "sensio/distribution-bundle": "2.3.*",
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
-	    "jpgraph/jpgraph": "dev-master",
-	    "symfony/class-loader": "2.3.*",
+	"jpgraph/jpgraph": "dev-master",
+	"symfony/class-loader": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/rest-bundle": "dev-format_tweaks",
         "jms/serializer": "0.14.*@dev",

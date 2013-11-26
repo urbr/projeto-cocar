@@ -9,7 +9,7 @@ Pré-requisitos:
 	* Sistema de Banco de dados RRDTool
 	* Agendador de tarefas cron
 
-	- Instalação: apt-get install snmp rrdtool php5-snmp
+	- Instalação: apt-get install snmp rrdtool php5-snmp php5-json php-gd libicu-dev
 
 Instalação (Somente o Bundle):
 ===============
@@ -24,14 +24,16 @@ Instalação (Somente o Bundle):
 	4 – Crie as tabelas do bundle.
 		Comandos: php app/console doctrine:schema:create
 
-	5 – Atualize o composer.
-		Comando: php composer.phar update
+	5 – Atualize e instale o composer.
+		Comando: php composer.phar self-update
+		Comando: php composer.phar install
 
 	6 – Instale os assets.
+		Comando: php app/console assetic:dump
 		Comando: php app/console assets:install –symlink
 
 	7 – Adicione os agendamentos ao cron.
-		Comando: crontab -u [usuario] schedules.txt
+		Comando: crontab -u {usuario} schedules.txt
 
 Configuração:
 ===============
